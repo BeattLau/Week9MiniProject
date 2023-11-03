@@ -34,4 +34,5 @@ public class Student {
     public void setEnrolledCourses(String enrolledCourses) {
         this.enrolledCourses = enrolledCourses;
     }
+
 }
