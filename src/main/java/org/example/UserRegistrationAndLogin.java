@@ -37,11 +37,11 @@ public class UserRegistrationAndLogin {
     }
 
 
-    private void registerUser(Scanner scanner) {
+    void registerUser(Scanner sc) {
         System.out.print("Enter a username: ");
-        String username = scanner.next();
+        String username = sc.next();
         System.out.print("Enter a password: ");
-        String password = scanner.next();
+        String password = sc.next();
 
         User newUser = new User(username, password);
         users.add(newUser);
@@ -50,11 +50,11 @@ public class UserRegistrationAndLogin {
     }
 
 
-    private void loginUser(Scanner scanner) {
+    private void loginUser(Scanner sc) {
         System.out.print("Enter your username: ");
-        String username = scanner.next();
+        String username = sc.next();
         System.out.print("Enter your password: ");
-        String password = scanner.next();
+        String password = sc.next();
 
         boolean isAuthenticated = false;
 
