@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class UserRegistrationAndLogin {
+public class UserRegistrationAndLogin{
 
     private List<User> users = new ArrayList<>();
 
